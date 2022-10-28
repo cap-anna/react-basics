@@ -2,7 +2,7 @@
   "name": "slides",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://cap-anna.github.io/web-dev-react/",
+  "homepage": "https://cap-anna.github.io/react-basics",
   "scripts": {
     "dev": "vite --port 3003",
     "build": "tsc && vite build",
@@ -10,7 +10,7 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "prismjs": "^1.28.0",
