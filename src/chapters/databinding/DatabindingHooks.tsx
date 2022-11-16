@@ -141,11 +141,6 @@ const DatabindingHooksChapter: React.FC<GenericChapterProps> = (props: GenericCh
       }
     >
       <Slide>
-        <h2>Hooks</h2>
-        <p>work with React state and lifecycle features from function components</p>
-        <p>most important React Hooks: useState, useEffect, (useContext, useReducer, useCallback, useMemo, ...)</p>
-      </Slide>
-      <Slide>
         <h2>useState-Hook</h2>
         <ul>
           <li className='fragment'>add state management to function components</li>
@@ -156,6 +151,7 @@ const DatabindingHooksChapter: React.FC<GenericChapterProps> = (props: GenericCh
             <li className='fragment'>second value is used to update the value</li>
           </ul>
         </ul>
+        <aside>data binding: component is being rerendered when state changes</aside>
       </Slide>
       <Slide>
         <h2>useState-Hook</h2>
@@ -211,10 +207,6 @@ const DatabindingHooksChapter: React.FC<GenericChapterProps> = (props: GenericCh
             instead.
           </li>
           <li>We will fetch the books to display from the API.</li>
-          <li>
-            Update conditional rendering in Book.tsx: Place a badge "cheap" when the book's price is less than 30$, else the badge should
-            display "expensive".
-          </li>
           <li>
             Since data fetching takes some time, we also need to provide a loading spinner that tells the user there's some data fetching in
             progress since there is no data to display yet.

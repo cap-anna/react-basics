@@ -101,7 +101,6 @@ const StyledAuthor = styled.p\`color: 'green'\`
 const Book: React.FC = ({ name, author }: Book) => {
   return (<div>
       <h1 className='myHeadline'>{name}</h1>
-        // notice the double curly braces
       <StyledAuthor>author: {author}</StyledAuthor>
     </div>
   )}
@@ -133,7 +132,7 @@ const ComponentsChapter: React.FC<GenericChapterProps> = (props: GenericChapterP
         <p>Pass information down the component tree</p>
         <Code className='fragment'>{buttonFragment2}</Code>
         <Code className='fragment'>{useButton2}</Code>
-        <aside className='notes'>Or use any other way of passing JS objects (e.g. destructuring).</aside>
+        <aside className='notes'>Or use any other way of passing JS objects (e.g. destructuring). TODO: code this exact example</aside>
       </Slide>
       <Slide>
         <h2>Properties (aka Props)</h2>

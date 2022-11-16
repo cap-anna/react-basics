@@ -213,39 +213,6 @@ const ComparisonChapter: React.FC<GenericChapterProps> = (props: GenericChapterP
         </table>
       </Slide>
       <Slide>
-        <h2>Facts</h2>
-        <table style={{ width: '100%', fontSize: '1.75rem' }}>
-          <thead>
-            <tr>
-              <th></th>
-              <th>Angular</th>
-              <th>React</th>
-              <th>Vue</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Upgrading</td>
-              <td>Needed every year (major version change). Quite difficult.</td>
-              <td>No upgrade needed, built for stability. One upgrade command.</td>
-              <td>Not regulary. Migration tool exists.</td>
-            </tr>
-            <tr>
-              <td>Payload</td>
-              <td>500KB</td>
-              <td>35KB</td>
-              <td>20KB</td>
-            </tr>
-            <tr>
-              <td>Loading time (mean of DOM, Memory & Startup)</td>
-              <td>1.54s</td>
-              <td>1.17s</td>
-              <td>1.11s</td>
-            </tr>
-          </tbody>
-        </table>
-      </Slide>
-      <Slide>
         <div style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>
           <div>HTML, CSS, JS</div>
           <div style={{ paddingTop: 20, paddingBottom: 10 }}>
@@ -276,7 +243,6 @@ const ComparisonChapter: React.FC<GenericChapterProps> = (props: GenericChapterP
       <Slide>
         <h2>Example: TODO App</h2>
         <img src='./slide-assets/framework-todo.png' />
-        <small>https://www.youtube.com/watch?v=cuHDQhDhvPE</small>
       </Slide>
       <Slide>
         <h2>Angular</h2>

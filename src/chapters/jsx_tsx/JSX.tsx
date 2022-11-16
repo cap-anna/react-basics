@@ -72,7 +72,7 @@ const JsxChapter: React.FC<GenericChapterProps> = (props: GenericChapterProps) =
           <li className='fragment'>
             adds additional syntax to JavaScript to support a tighter integration with your editor ➡️ early error catching
           </li>
-          <li className='fragment'>Code converts to JS ➡️ runs anywhere JS runs (brower, node, deno, ...)</li>
+          <li className='fragment'>Code converts to JS ➡️ runs anywhere JS runs (browser, node, deno, ...)</li>
         </ul>
         <Code className='fragment'>{interfaceExample}</Code>
       </Slide>

@@ -111,10 +111,7 @@ const ConditionalRenderingChapter: React.FC<GenericChapterProps> = (props: Gener
       <Slide>
         <h2>💪 Exercise</h2>
         <ul>
-          <li>
-            Let's extend your Book-Component with a badge that notifies the user when a book is not available in store. (The Book-Component
-            needs to be passed an additional Prop).
-          </li>
+          <li>Let's extend your Book-Component with a badge that tells the user whether a book is cheaper than $10.</li>
           <li>In some cases, there might be no books available for rendering. We should have a Fallback UI for that.</li>
         </ul>
       </Slide>
