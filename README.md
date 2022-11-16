@@ -1,18 +1,14 @@
 # Cap internal React Training
 
-This is the slideshow for Cap Germany's internal React training.
+This slideshow is introducing some React Basics.
 
 # View it
 
-To view this presentation, just head over to https://cap-react-trainings.github.io/presentation
+To view this presentation, just head over to https://cap-anna.github.io/react-basics/#/
 
 Tipp:
 
 Press "s" to start the speaker's view!
-
-# Print it
-
-If you want to export it as a pdf file, you can go to https://cap-react-trainings.github.io/presentation/?print-pdf and `Cmd + P` or `Strg + P` it into a PDF.
 
 # Work on it
 
