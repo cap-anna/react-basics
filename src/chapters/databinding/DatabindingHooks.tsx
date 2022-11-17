@@ -151,7 +151,7 @@ const DatabindingHooksChapter: React.FC<GenericChapterProps> = (props: GenericCh
             <li className='fragment'>second value is used to update the value</li>
           </ul>
         </ul>
-        <aside>data binding: component is being rerendered when state changes</aside>
+        <aside className='notes'>data binding: component is being rerendered when state changes</aside>
       </Slide>
       <Slide>
         <h2>useState-Hook</h2>
